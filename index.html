@@ -5,8 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The BRIDGE Survey — Overview</title>
 <meta name="description" content="BRIDGE: Baryonic Enrichment in Diffuse Gaseous Environments — a survey of the circumgalactic and intergalactic medium at cosmic noon.">
-<link rel="icon", href="assets/logo.png">
+<link rel="icon" href="assets/logo.png">
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Figure styling. Move these rules into css/style.css if you prefer to keep
+     all styles in one place; they are kept here so the figure renders
+     correctly without editing the stylesheet. -->
+<style>
+  .figure {
+    margin: 2rem 0;
+  }
+  .figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .figure figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.85;
+  }
+  .figure figcaption .figure__label {
+    font-weight: 600;
+  }
+  .figure__links {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+</style>
 
 <!-- MathJax for LaTeX rendering -->
 <script>
@@ -55,12 +84,27 @@
       IGM, holds the majority of a galaxy's baryonic and metal budget. Comprehensive surveys on the enrichment of the cool, multi-phase CGM exist at low (<span>$z \lesssim 1$</span>; CCC) and high (<span>$2.2\leq z \leq 3.6$</span>; KODIAQ-Z) redshifts. Yet, at the most active epoch (<span>$1 \leq z \leq 2.2$</span>), the metal distribution of the gas probing the CGM and IGM remains the least studied.
     </p>
     <p>
-      The BRIDGE survey uses absorption-line spectroscopy of background quasars to map this gas in column density, kinematics, and metallicity as a function of redshift and overdensity. 
+      The BRIDGE survey uses absorption-line spectroscopy of background quasars to map this gas in column density, kinematics, and metallicity as a function of redshift and overdensity.
     </p>
+
+    <figure class="figure" id="fig-metallicity-redshift">
+      <img src="assets/metallicity-redshift.png"
+           alt="Metallicity [X/H] against redshift and lookback time for H I-selected absorbers. Absorbers are coloured by H I column density; BRIDGE sample absorbers are plotted as stars and fill the Cosmic Noon interval between redshift 1 and 2.2."
+           loading="lazy">
+      <figcaption>
+        <span class="figure__label">Figure 1.</span>
+        <!-- CAPTION PLACEHOLDER — replace the text below. -->
+        Caption to come.
+        <div class="figure__links">
+          <a href="assets/metallicity-redshift.pdf">Download as PDF</a>
+        </div>
+      </figcaption>
+    </figure>
 
     <h2>The metal budget</h2>
     <p>
       A central goal of the survey is to close the baryonic and metal budget in the CGM and IGM at Cosmic Noon <span>$1 \leq z \leq 2.2$</span>. Our first paper in this series summarizes existing metal mass density estimates for the various metal reservoirs of the Universe at <span>$z < 1$</span> and <span>$z > 2.2$</span>. With metallicities estimates for hundreds of CGM and IGM absorbers with the BRIDGE survey, we will for the first time study the evolving global metal budget of the Universe for period spannning nearly 12 Gyrs or over 90% of the age of the Universe.
+    </p>
 
     <hr class="divider">
     <p class="byline">This page is a living draft and will be updated as the survey develops.</p>
